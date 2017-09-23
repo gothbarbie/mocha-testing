@@ -1,14 +1,14 @@
 {
   "name": "mocha-testing",
   "version": "1.0.0",
-  "description": "",
+  "description": "Learning testing with Mocha",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha **/*.test.js"
   },
-  "author": "",
+  "author": "Hanna Söderström",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
     "mocha": "^3.0.0"
   }
 }
